@@ -46,6 +46,9 @@ jobs:
           npm run build
           cp ./build/index.html ./build/404.html
 
+      - name: Create CNAME file
+        run: echo "https://mo29.luvle.co.kr" > ./build/CNAME
+
       - name: Deploy to gh-pages branch
         uses: peaceiris/actions-gh-pages@v3
         with:
