@@ -1,7 +1,7 @@
 import moment from "moment";
 
 // folder 이름
-export const 폴더이름 = "mo18";
+export const 폴더이름 = "mo29";
 export const WEDDING_HOMEPAGE = `https://${폴더이름}.luvle.co.kr`;
 
 // 카톡 링크 공유했을 때 나오는 대표이미지
